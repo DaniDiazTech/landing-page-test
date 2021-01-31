@@ -121,7 +121,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATIC_DIRS = (
+STATICFILES_DIRS = (
     join(BASE_DIR, "static"),
 )
 
